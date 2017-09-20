@@ -29,17 +29,12 @@ class AppAsset extends \yii\web\AssetBundle
         'js/scripts.js',
     ];
     public $depends = [
+        ...
         'grozzzny\depends\jquery_migrate\JqueryMigrateAsset',
         'grozzzny\depends\masonry\MasonryAsset',
-        'grozzzny\depends\font_awesome\FontAwesomeAsset',
-        'grozzzny\depends\plugins\PluginsAsset',
-        'grozzzny\depends\modernizr\ModernizrAsset',
-        'grozzzny\depends\stellar\StellarAsset',
-        'grozzzny\depends\owl_carousel\OwlAsset',
-        'grozzzny\depends\flexslider\FlexsliderAsset',
-        'grozzzny\depends\bxslider\BxsliderAsset',
         'grozzzny\depends\waypoints\WaypointsAsset',
         'grozzzny\depends\switcher\SwitcherAsset',
+        ...
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -89,6 +84,24 @@ Parallax.js is a dirt simple parallax scrolling effect inspired by Spotify.com a
 
 ### ScrollReveal
 Easy scroll animations for web and mobile browsers. [ScrollReveal](https://scrollrevealjs.org/) 
+```js
+$(document).ready(function(){
+    /************************
+     - Scroll reveal -
+     ************************/
+    window.sr = new scrollReveal({
+        reset:true,
+        move:"10px",
+        mobile:false
+    });
+});
+```
+
+```html
+<div data-sr="enter left and move 40px over 1s">
+
+</div>
+```
 
 ### Smoothscroll
 A teeny tiny, standard compliant, smooth scroll script with ease-in-out effect and no dependancy. [Smoothscroll](https://www.npmjs.com/package/smoothscroll) 
@@ -96,3 +109,18 @@ A teeny tiny, standard compliant, smooth scroll script with ease-in-out effect a
 ### Wow animations and animate.css
 Reveal CSS animation as you scroll down a page. By default, you can use it to trigger animate.css animations. But you can easily change the settings to your favorite animation library. [Wow animations](https://github.com/matthieua/WOW) 
 Library animations. [animate.css](https://daneden.github.io/animate.css/) 
+```js
+$(document).on('ready', function(){
+    /************************
+     - WOW animation -
+     ************************/
+    jQuery(document).ready(function() {
+        new WOW().init();
+    });
+});
+```
+```html
+<div class="animated fadeIn wow" data-wow-duration="1s" data-wow-delay="2s">
+
+</div>
+```
