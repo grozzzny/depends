@@ -29,11 +29,10 @@ class AppAsset extends \yii\web\AssetBundle
         'js/scripts.js',
     ];
     public $depends = [
-        ...
         'grozzzny\depends\jquery_migrate\JqueryMigrateAsset',
         'grozzzny\depends\masonry\MasonryAsset',
         'grozzzny\depends\waypoints\WaypointsAsset',
-        ...
+        'grozzzny\depends\gmap\GmapAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -184,5 +183,27 @@ $(document).on('ready', function(){
 <div class="animated fadeIn wow" data-wow-duration="1s" data-wow-delay="2s">
 
 </div>
+```
+---
+
+### Gmap
+Lightweight jQuery plugin that helps you embed Google Maps, using the API V3, into your website. Original at [Gmap](http://github.com/marioestrada/jQuery-gMap)
+```
+grozzzny\depends\gmap\GmapAsset
+```
+```php
+$config = [
+    'components' => [
+        ...
+        'assetManager' => [
+            ...
+            'bundles' => [
+                'grozzzny\depends\gmap\GmapAsset' => [
+                    'key' => 'AIzaSyCtX2Fg1fOnnX1Pu1n1lXvmb303Q_1234',
+                ],
+            ]
+        ]
+    ]
+];
 ```
 ---
