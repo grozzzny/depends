@@ -33,7 +33,6 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\jquery_migrate\JqueryMigrateAsset',
         'grozzzny\depends\masonry\MasonryAsset',
         'grozzzny\depends\waypoints\WaypointsAsset',
-        'grozzzny\depends\switcher\SwitcherAsset',
         ...
     ];
     public $jsOptions = [
