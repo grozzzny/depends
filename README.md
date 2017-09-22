@@ -29,10 +29,22 @@ class AppAsset extends \yii\web\AssetBundle
         'js/scripts.js',
     ];
     public $depends = [
+        'grozzzny\depends\bxslider\BxsliderAsset',
+        'grozzzny\depends\flexslider\FlexsliderAsset',
+        'grozzzny\depends\font_awesome\FontAwesomeAsset',
         'grozzzny\depends\jquery_migrate\JqueryMigrateAsset',
         'grozzzny\depends\masonry\MasonryAsset',
+        'grozzzny\depends\modernizr\ModernizrAsset',
+        'grozzzny\depends\nested\NestedAsset',
+        'grozzzny\depends\notify\NotifyAsset',
+        'grozzzny\depends\stellar\StellarAsset',
+        'grozzzny\depends\owl_carousel\OwlAsset',
+        'grozzzny\depends\parallax\ParallaxAsset',
+        'grozzzny\depends\scrollreveal\ScrollRevalAsset',
+        'grozzzny\depends\smoothscroll\SmoothscrollAsset',
         'grozzzny\depends\waypoints\WaypointsAsset',
-        'grozzzny\depends\gmap\GmapAsset',
+        'grozzzny\depends\wow_animations\WowAnimationsAsset',
+        'grozzzny\depends\gmap\GmapAsset'
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -71,14 +83,14 @@ grozzzny\depends\jquery_migrate\JqueryMigrateAsset
 ### Masonry
 Cascading grid layout library [Masonry](https://masonry.desandro.com/) 
 ```
-grozzzny\depends\bxslider\BxsliderAsset
+grozzzny\depends\masonry\MasonryAsset
 ```
 ---
 
 ### Modernizr
 Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. [Modernizr](https://github.com/Modernizr/Modernizr) 
 ```
-grozzzny\depends\masonry\MasonryAsset
+grozzzny\depends\modernizr\ModernizrAsset
 ```
 ---
 
