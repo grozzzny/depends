@@ -44,7 +44,9 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\smoothscroll\SmoothscrollAsset',
         'grozzzny\depends\waypoints\WaypointsAsset',
         'grozzzny\depends\wow_animations\WowAnimationsAsset',
-        'grozzzny\depends\gmap\GmapAsset'
+        'grozzzny\depends\gmap\GmapAsset',
+        'grozzzny\depends\swiper\SwiperAsset',
+        'grozzzny\depends\fancybox\FancyboxAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -217,5 +219,69 @@ $config = [
         ]
     ]
 ];
+```
+---
+
+### Swiper
+Most Modern Mobile Touch Slider [Swiper](http://idangero.us/swiper/)
+```
+grozzzny\depends\swiper\SwiperAsset
+```
+```html
+ <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#">
+                <img alt="" src="image_1.jpg" />
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#">
+                <img alt="" src="image_2.jpg" />
+            </a>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+   
+</div>
+```
+```js
+var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 4000,
+        autoplayDisableOnInteraction: false
+    });
+```
+---
+
+### Fancybox
+FancyBox is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page.  [Fancybox](http://fancybox.net/)
+```
+grozzzny\depends\fancybox\FancyboxAsset
+```
+```html
+<a href="image_1.jpg" data-fancybox="group" data-caption="">
+    <img src="image_1_preview.jpg" alt="" />
+</a>
+```
+```js
+$('.fancybox').fancybox();
+//OR
+$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
+    loop : true,
+    closeClick : false,
+    nextEffect : 'none',
+    prevEffect : 'none',
+    openEffect : 'elastic',
+    closeEffect : 'elastic',
+    openEasing : 'swing',
+    closeEasing : 'swing'
+ });
 ```
 ---
