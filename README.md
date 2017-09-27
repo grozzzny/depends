@@ -175,6 +175,34 @@ Waypoints is a library that makes it easy to execute a function whenever you scr
 ```
 grozzzny\depends\waypoints\WaypointsAsset
 ```
+```css
+.stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+```
+```html
+<div class="js-sticky">
+
+</div>
+```
+```js
+// Fixed header
+//-----------------------------------------------
+if ($('.js-sticky').length) {
+    var sticky = new Waypoint.Sticky({
+        element: $('.js-sticky'),
+        //wrapper: '<div class="sticky-wrapper waypoint" />',
+        //stuckClass: 'object-visible',
+        //handler: function(direction) {
+        //    $('body').toggleClass('fixed-header-on');
+        //},
+        //offset: -1
+    });
+}
+```
 ---
 
 ### Wow animations and animate.css

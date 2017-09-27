@@ -7,7 +7,8 @@ class WaypointsAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@grozzzny/depends/waypoints';
     public $js = [
-        'waypoints.min.js',
+        'jquery.waypoints.min.js',
+        'sticky.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
