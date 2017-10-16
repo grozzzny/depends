@@ -12,7 +12,4 @@ class JqueryMigrateAsset extends \yii\web\AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
     ];
-    public $jsOptions = [
-        'position' => View::POS_HEAD
-    ];
 }
