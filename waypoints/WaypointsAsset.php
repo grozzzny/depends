@@ -1,8 +1,6 @@
 <?php
 namespace grozzzny\depends\waypoints;
 
-use yii\web\View;
-
 class WaypointsAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@grozzzny/depends/waypoints';
@@ -12,8 +10,5 @@ class WaypointsAsset extends \yii\web\AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-    ];
-    public $jsOptions = [
-        'position' => View::POS_HEAD
     ];
 }
