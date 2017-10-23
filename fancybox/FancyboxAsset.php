@@ -13,9 +13,6 @@ class FancyboxAsset extends \yii\web\AssetBundle
     public $js = [
         'jquery.fancybox.min.js'
     ];
-    public $jsOptions = [
-        'position' => View::POS_HEAD
-    ];
     public $depends = [
         'yii\web\JqueryAsset'
     ];
