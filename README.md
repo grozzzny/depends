@@ -47,6 +47,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\gmap\GmapAsset',
         'grozzzny\depends\swiper\SwiperAsset',
         'grozzzny\depends\fancybox\FancyboxAsset',
+        'grozzzny\depends\sticky\StickyAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -311,5 +312,17 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fanc
     openEasing : 'swing',
     closeEasing : 'swing'
  });
+```
+---
+
+### Sticky
+Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.  [Sticky](https://github.com/garand/sticky)
+```
+grozzzny\depends\sticky\StickyAsset
+```
+```js
+$(document).ready(function(){
+    $("#sticker").sticky({topSpacing:0});
+  });
 ```
 ---
