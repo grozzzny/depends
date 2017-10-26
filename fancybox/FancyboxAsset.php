@@ -1,11 +1,9 @@
 <?php
 namespace grozzzny\depends\fancybox;
 
-use yii\web\View;
-
 class FancyboxAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/fancybox/dist';
+    public $sourcePath = '@grozzzny/depends/fancybox/dist';
 
     public $css = [
         'jquery.fancybox.min.css',
