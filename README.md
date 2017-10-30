@@ -48,6 +48,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\swiper\SwiperAsset',
         'grozzzny\depends\fancybox\FancyboxAsset',
         'grozzzny\depends\sticky\StickyAsset',
+        'grozzzny\depends\cookie\CookieAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -324,5 +325,28 @@ grozzzny\depends\sticky\StickyAsset
 $(document).ready(function(){
     $("#sticker").sticky({topSpacing:0});
   });
+```
+---
+
+### jQuery Cookie Plugin
+A simple, lightweight jQuery plugin for reading, writing and deleting cookies.  [jQuery Cookie Plugin](https://github.com/carhartl/jquery-cookie)
+```
+'grozzzny\depends\cookie\CookieAsset'
+```
+```js
+//Create session cookie:
+$.cookie('name', 'value');
+
+//Create expiring cookie, 7 days from then:
+$.cookie('name', 'value', { expires: 7 });
+
+//Create expiring cookie, valid across entire site:
+$.cookie('name', 'value', { expires: 7, path: '/' });
+
+//Read cookie:
+$.cookie('name'); // => "value"
+
+// Returns true when cookie was successfully deleted, otherwise false
+$.removeCookie('name'); // => true
 ```
 ---
