@@ -29,6 +29,11 @@ class AppAsset extends \yii\web\AssetBundle
         'js/scripts.js',
     ];
     public $depends = [
+        'grozzzny\depends\bootstrap4\Bootstrap4Asset',
+        'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
+        'grozzzny\depends\fontawesome5\FontAwesome5Asset',
+        'grozzzny\depends\popper\PopperAsset',
+        'grozzzny\depends\tether\TetherAsset',
         'grozzzny\depends\bxslider\BxsliderAsset',
         'grozzzny\depends\flexslider\FlexsliderAsset',
         'grozzzny\depends\font_awesome\FontAwesomeAsset',
@@ -56,6 +61,36 @@ class AppAsset extends \yii\web\AssetBundle
 }
 ```
 ---
+
+### Bootstrap v4
+Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web. [bootstrap v4](https://getbootstrap.com/) 
+```
+grozzzny\depends\bootstrap4\Bootstrap4Asset
+grozzzny\depends\bootstrap4\Bootstrap4PluginAsset
+```
+---
+
+### POPPER.JS
+A kickass library used to manage poppers in web applications [POPPER.JS](https://popper.js.org/) 
+```
+grozzzny\depends\popper\PopperAsset
+```
+---
+
+### Font Awesome 5
+Get vector icons and social logos on your website with Font Awesome, the web’s most popular icon set and toolkit. [Font Awesome 5](https://fontawesome.com/) 
+```
+grozzzny\depends\fontawesome5\FontAwesome5Asset
+```
+---
+
+### Tether
+A positioning engine to make overlays, tooltips and dropdowns better #hubspot-open-source [tether](https://github.com/HubSpot/tether) 
+```
+grozzzny\depends\tether\TetherAsset
+```
+---
+
 ### bxSlider
 The Responsive jQuery Content Slider [bxSlider](http://bxslider.com/) 
 ```

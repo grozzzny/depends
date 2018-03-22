@@ -14,7 +14,9 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "bower-asset/fancybox": "*"
+        "bower-asset/fancybox": "*",
+        "twbs/bootstrap": "4.0.0",
+        "components/font-awesome": "5.0.6"
     },
     "autoload": {
         "psr-4": {
