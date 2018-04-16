@@ -54,11 +54,39 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\fancybox\FancyboxAsset',
         'grozzzny\depends\sticky\StickyAsset',
         'grozzzny\depends\cookie\CookieAsset',
+        'grozzzny\depends\toastr\ToastrAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
     ];
 }
+```
+---
+
+### Toastr
+toastr is a Javascript library for non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended. [Toastr](https://github.com/CodeSeven/toastr) 
+```
+grozzzny\depends\toastr\ToastrAsset
+```
+
+```js
+// Display a warning toast, with no title
+toastr.warning('My name is Inigo Montoya. You killed my father, prepare to die!')
+
+// Display a success toast, with a title
+toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+
+// Display an error toast, with a title
+toastr.error('I do not think that word means what you think it means.', 'Inconceivable!')
+
+// Immediately remove current toasts without using animation
+toastr.remove()
+
+// Remove current toasts using animation
+toastr.clear()
+
+// Override global options
+toastr.success('We do have the Kapua suite available.', 'Turtle Bay Resort', {timeOut: 5000})
 ```
 ---
 
