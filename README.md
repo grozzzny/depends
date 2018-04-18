@@ -55,11 +55,33 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\sticky\StickyAsset',
         'grozzzny\depends\cookie\CookieAsset',
         'grozzzny\depends\toastr\ToastrAsset',
+        'grozzzny\depends\sweetalert\SweetalertAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
     ];
 }
+```
+---
+
+### Sweetalert
+A beautiful replacement for success messages, error messages [Sweetalert](https://sweetalert.js.org/guides/) 
+```
+grozzzny\depends\sweetalert\SweetalertAsset
+```
+
+```js
+ swal({
+	title: "Удалить данный блок?",
+	text: "You will not be able to recover this imaginary file!",
+	type: "warning",
+	showCancelButton: true,
+	confirmButtonColor: "#DD6B55",
+	confirmButtonText: "Да, удалить!",
+	closeOnConfirm: false
+}, function () {
+	swal("Deleted!", "Your imaginary file has been deleted.", "success");
+});
 ```
 ---
 
