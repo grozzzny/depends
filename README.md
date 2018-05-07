@@ -56,11 +56,41 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\cookie\CookieAsset',
         'grozzzny\depends\toastr\ToastrAsset',
         'grozzzny\depends\sweetalert\SweetalertAsset',
+        'grozzzny\depends\eonasdan\EonasdanBootstrapDatetimepickerAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
     ];
 }
+```
+---
+
+### EonasdanBootstrapDatetimepickerAsset
+Bootstrap 3 Datepicker v4 Docs [Datepicker](http://eonasdan.github.io/bootstrap-datetimepicker/) 
+```
+grozzzny\depends\eonasdan\EonasdanBootstrapDatetimepickerAsset
+```
+
+```html
+ <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
 ```
 ---
 
