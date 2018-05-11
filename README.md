@@ -57,11 +57,19 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\toastr\ToastrAsset',
         'grozzzny\depends\sweetalert\SweetalertAsset',
         'grozzzny\depends\eonasdan\EonasdanBootstrapDatetimepickerAsset',
+        'grozzzny\depends\threejs\ThreejsAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
     ];
 }
+```
+---
+
+### three.js
+The goal of this section is to give a brief introduction to three.js. [three.js](https://threejs.org) 
+```
+grozzzny\depends\threejs\ThreejsAsset
 ```
 ---
 
