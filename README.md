@@ -58,6 +58,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\sweetalert\SweetalertAsset',
         'grozzzny\depends\eonasdan\EonasdanBootstrapDatetimepickerAsset',
         'grozzzny\depends\threejs\ThreejsAsset',
+        'grozzzny\depends\wagerfield_parallax\WagerfieldParallaxAsset',
     ];
     public $jsOptions = [
         'position' => View::POS_HEAD
@@ -246,6 +247,13 @@ notify.error('message');
 Parallax has never been easier. [Stellar](http://markdalgleish.com/projects/stellar.js/) 
 ```
 grozzzny\depends\stellar\StellarAsset
+```
+---
+
+### Wagerfield Parallax
+Parallax Engine that reacts to the orientation of a smart device. [Parallax](https://github.com/wagerfield/parallax) 
+```
+grozzzny\depends\wagerfield_parallax\WagerfieldParallaxAsset
 ```
 ---
 
