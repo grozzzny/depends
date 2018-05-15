@@ -1,8 +1,6 @@
 <?php
 namespace grozzzny\depends\gmap;
 
-use yii\web\View;
-
 class GmapAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@grozzzny/depends/gmap';
@@ -14,9 +12,6 @@ class GmapAsset extends \yii\web\AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-    ];
-    public $jsOptions = [
-        'position' => View::POS_HEAD
     ];
 
     public function init()
