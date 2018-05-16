@@ -23,5 +23,8 @@ class Bootstrap4PluginAsset extends AssetBundle
         Yii::$app->view->on(View::EVENT_AFTER_RENDER, function (){
             unset(Yii::$app->view->assetBundles['yii\bootstrap\BootstrapPluginAsset']);
         });
+        Yii::$app->view->on(View::EVENT_BEGIN_BODY, function (){
+            unset(Yii::$app->view->assetBundles['yii\bootstrap\BootstrapPluginAsset']);
+        });
     }
 }
