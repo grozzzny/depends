@@ -31,6 +31,8 @@ class AppAsset extends \yii\web\AssetBundle
     public $depends = [
         'grozzzny\depends\bootstrap4\Bootstrap4Asset',
         'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
+        'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
+        'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\fontawesome5\FontAwesome5Asset',
         'grozzzny\depends\popper\PopperAsset',
         'grozzzny\depends\tether\TetherAsset',
@@ -71,6 +73,14 @@ class AppAsset extends \yii\web\AssetBundle
 The goal of this section is to give a brief introduction to three.js. [three.js](https://threejs.org) 
 ```
 grozzzny\depends\threejs\ThreejsAsset
+```
+---
+
+### Material Design for Bootstrap 4
+World's most popular framework for building responsive, mobile-first websites and apps. [https://mdbootstrap.com](https://mdbootstrap.com) 
+```
+grozzzny\depends\mdbootstrap\MDBootstrapAsset
+grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset
 ```
 ---
 
