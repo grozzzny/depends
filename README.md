@@ -33,6 +33,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
+		'grozzzny\depends\jarallax\JarallaxAsset',
         'grozzzny\depends\fontawesome5\FontAwesome5Asset',
         'grozzzny\depends\popper\PopperAsset',
         'grozzzny\depends\tether\TetherAsset',
@@ -66,6 +67,13 @@ class AppAsset extends \yii\web\AssetBundle
         'position' => View::POS_HEAD
     ];
 }
+```
+---
+
+### Jarallax
+Smooth parallax scrolling effect for background images using CSS transforms with graceful degradation for old browsers. [Jarallax](https://free.nkdev.info/jarallax/) 
+```
+grozzzny\depends\jarallax\JarallaxAsset
 ```
 ---
 
