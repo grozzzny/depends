@@ -21,18 +21,14 @@ or composer.json:
 ```php
 class AppAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@app/media';
-    public $css = [
-        'css/styles.less',
-    ];
-    public $js = [
-        'js/scripts.js',
-    ];
+    ..
     public $depends = [
         'grozzzny\depends\bootstrap4\Bootstrap4Asset',
         'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
+        'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
+        'grozzzny\depends\cropper\CropperAsset',
 		'grozzzny\depends\jarallax\JarallaxAsset',
         'grozzzny\depends\fontawesome5\FontAwesome5Asset',
         'grozzzny\depends\popper\PopperAsset',
@@ -63,10 +59,22 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\threejs\ThreejsAsset',
         'grozzzny\depends\wagerfield_parallax\WagerfieldParallaxAsset',
     ];
-    public $jsOptions = [
-        'position' => View::POS_HEAD
-    ];
+    ...
 }
+```
+---
+
+### Responsive Tables
+This is an experimental awesome solution for responsive tables with complex data. [Responsive Tables](http://gergeo.se/RWD-Table-Patterns/#how-to-use) 
+```
+grozzzny\depends\responsive_tables\ResponsiveTablesAsset
+```
+---
+
+### Cropper.js
+JavaScript image cropper. [Cropper.js](http://fengyuanchen.github.io/cropperjs/) 
+```
+grozzzny\depends\cropper\CropperAsset
 ```
 ---
 
