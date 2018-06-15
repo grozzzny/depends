@@ -28,6 +28,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
+        'grozzzny\depends\waves\WavesAsset',
         'grozzzny\depends\cropper\CropperAsset',
 		'grozzzny\depends\jarallax\JarallaxAsset',
         'grozzzny\depends\fontawesome5\FontAwesome5Asset',
@@ -61,6 +62,13 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### Click effect inspired by Google's Material Design
+Click effect inspired by Google's Material Design. [http://fian.my.id/Waves/](http://fian.my.id/Waves/) 
+```
+grozzzny\depends\waves\WavesAsset
 ```
 ---
 
