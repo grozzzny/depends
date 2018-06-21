@@ -28,6 +28,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
+		'grozzzny\depends\highlight\HighlightAsset',
         'grozzzny\depends\waves\WavesAsset',
         'grozzzny\depends\cropper\CropperAsset',
 		'grozzzny\depends\jarallax\JarallaxAsset',
@@ -62,6 +63,19 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### highlight.js
+Syntax highlighting for the Web [highlight.js](https://highlightjs.org/) 
+```
+grozzzny\depends\highlight\HighlightAsset
+```
+
+```html
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
 ```
 ---
 
