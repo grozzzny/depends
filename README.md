@@ -28,6 +28,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
+        'grozzzny\depends\jssocials\JssocialsAsset',
 		'grozzzny\depends\highlight\HighlightAsset',
         'grozzzny\depends\waves\WavesAsset',
         'grozzzny\depends\cropper\CropperAsset',
@@ -63,6 +64,19 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### Social Network Sharing Plugin
+jsSocials is a simple social network sharing jQuery plugin. It's flexible and easily extensible. Configure visual appearance. Choose one of several themes provided. Add any yet unsupported social network if needed. [jsSocials](http://js-socials.com) 
+```
+grozzzny\depends\jssocials\JssocialsAsset
+```
+
+```js
+ $("#share").jsSocials({
+	shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+});
 ```
 ---
 
