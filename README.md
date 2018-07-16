@@ -29,6 +29,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
         'grozzzny\depends\jssocials\JssocialsAsset',
+        'grozzzny\depends\morris\MorrisAsset',
 		'grozzzny\depends\highlight\HighlightAsset',
         'grozzzny\depends\waves\WavesAsset',
         'grozzzny\depends\cropper\CropperAsset',
@@ -64,6 +65,13 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### morris.js
+good-looking charts shouldn't be difficult. [morris.js](http://morrisjs.github.io/morris.js/) 
+```
+grozzzny\depends\morris\MorrisAsset
 ```
 ---
 
