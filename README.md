@@ -28,6 +28,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
+        'grozzzny\depends\froala\FroalaAsset',
         'grozzzny\depends\jssocials\JssocialsAsset',
         'grozzzny\depends\morris\MorrisAsset',
 		'grozzzny\depends\highlight\HighlightAsset',
@@ -65,6 +66,13 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### froala
+Beautiful Javascript web editor that's easy to integrate for developers and your users will simply fall in love with its clean design. [HTML Editor](https://www.froala.com/wysiwyg-editor) 
+```
+grozzzny\depends\froala\FroalaAsset
 ```
 ---
 
