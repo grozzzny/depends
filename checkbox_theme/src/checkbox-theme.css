@@ -1,16 +1,14 @@
 @charset "UTF-8";
 [data-checkbox-theme] {
+  visibility: hidden;
   position: relative;
-  width: 0 !important;
-  height: 0 !important;
-  min-width: 20px !important;
-  min-height: 20px !important;
-  padding: 10px !important;
-  display: inline-block !important;
+  width: 20px;
+  height: 20px;
   margin-top: 0 !important;
   vertical-align: sub;
 }
 [data-checkbox-theme]:before, [data-checkbox-theme]:after {
+  visibility: visible;
   content: " ";
   position: absolute;
   left: 0;
@@ -1083,11 +1081,8 @@
 }
 
 [data-checkbox-theme=switcher-default] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1119,11 +1114,8 @@
 }
 
 [data-checkbox-theme=switcher-danger-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1155,11 +1147,8 @@
 }
 
 [data-checkbox-theme=switcher-danger-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1191,11 +1180,8 @@
 }
 
 [data-checkbox-theme=switcher-warning-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1227,11 +1213,8 @@
 }
 
 [data-checkbox-theme=switcher-warning-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1263,11 +1246,8 @@
 }
 
 [data-checkbox-theme=switcher-success-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1299,11 +1279,8 @@
 }
 
 [data-checkbox-theme=switcher-success-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1335,11 +1312,8 @@
 }
 
 [data-checkbox-theme=switcher-info-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1371,11 +1345,8 @@
 }
 
 [data-checkbox-theme=switcher-info-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1407,11 +1378,8 @@
 }
 
 [data-checkbox-theme=switcher-turquoise-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1443,11 +1411,8 @@
 }
 
 [data-checkbox-theme=switcher-turquoise-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1479,11 +1444,8 @@
 }
 
 [data-checkbox-theme=switcher-primary-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1515,11 +1477,8 @@
 }
 
 [data-checkbox-theme=switcher-primary-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1551,11 +1510,8 @@
 }
 
 [data-checkbox-theme=switcher-secondary-color] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1587,11 +1543,8 @@
 }
 
 [data-checkbox-theme=switcher-secondary-color-dark] {
-  width: 0 !important;
-  height: 0 !important;
-  padding: 8px 20px !important;
-  min-width: 40px !important;
-  min-height: 16px !important;
+  width: 40px;
+  height: 16px;
   margin: 4px !important;
   vertical-align: bottom;
 }

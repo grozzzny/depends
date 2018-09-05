@@ -88,12 +88,8 @@
 
 @mixin checkbox-theme-switcher($name, $color){
   [data-checkbox-theme="switcher-#{$name}"]{
-    width: 0 !important;
-    height: 0 !important;
-    padding: 8px 20px !important;
-    min-width: 40px !important;
-    min-height: 16px !important;
-
+    width: 40px;
+    height: 16px;
     margin: 4px !important;
     vertical-align: bottom;
     &:disabled {
@@ -126,17 +122,15 @@
 }
 
 [data-checkbox-theme]{
+  visibility: hidden;
   position: relative;
-  width: 0 !important;
-  height: 0 !important;
-  min-width: 20px !important;
-  min-height: 20px !important;
-  padding: 10px !important;
-  display: inline-block !important;
+  width: 20px;
+  height: 20px;
   margin-top: 0 !important;
   vertical-align: sub;
 
   &:before, &:after{
+    visibility: visible;
     content: ' ';
     position: absolute;
     left: 0;
