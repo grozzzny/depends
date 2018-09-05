@@ -27,6 +27,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapPluginAsset',
+        'grozzzny\depends\checkbox_theme\CheckboxThemeAsset',
         'grozzzny\depends\responsive_tables\ResponsiveTablesAsset',
         'grozzzny\depends\froala\FroalaAsset',
         'grozzzny\depends\jssocials\JssocialsAsset',
@@ -66,6 +67,13 @@ class AppAsset extends \yii\web\AssetBundle
     ];
     ...
 }
+```
+---
+
+### Checkbox theme
+Checkbox with one tag without js. [Checkbox theme](https://pr-kenig.ru/blog/view/checkbox-theme) 
+```
+grozzzny\depends\checkbox_theme\CheckboxThemeAsset
 ```
 ---
 

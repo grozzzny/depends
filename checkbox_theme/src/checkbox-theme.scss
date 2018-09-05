@@ -1,0 +1,69 @@
+@import 'checkbox-theme-base.scss';
+
+//mark
+@include checkbox-theme-mark(default, #4a4a4a);
+@include checkbox-theme-mark(danger-color, #ff4444);
+@include checkbox-theme-mark(danger-color-dark, #CC0000);
+@include checkbox-theme-mark(warning-color, #ffbb33);
+@include checkbox-theme-mark(warning-color-dark, #FF8800);
+@include checkbox-theme-mark(success-color, #00C851);
+@include checkbox-theme-mark(success-color-dark, #007E33);
+@include checkbox-theme-mark(info-color, #33b5e5);
+@include checkbox-theme-mark(info-color-dark, #0099CC);
+@include checkbox-theme-mark(turquoise-color, #2BBBAD);
+@include checkbox-theme-mark(turquoise-color-dark, #00695c);
+@include checkbox-theme-mark(primary-color, #4285F4);
+@include checkbox-theme-mark(primary-color-dark, #0d47a1);
+@include checkbox-theme-mark(secondary-color, #aa66cc);
+@include checkbox-theme-mark(secondary-color-dark, #9933CC);
+
+//mark2
+@include checkbox-theme-mark2(default, #4a4a4a);
+@include checkbox-theme-mark2(danger-color, #ff4444);
+@include checkbox-theme-mark2(danger-color-dark, #CC0000);
+@include checkbox-theme-mark2(warning-color, #ffbb33);
+@include checkbox-theme-mark2(warning-color-dark, #FF8800);
+@include checkbox-theme-mark2(success-color, #00C851);
+@include checkbox-theme-mark2(success-color-dark, #007E33);
+@include checkbox-theme-mark2(info-color, #33b5e5);
+@include checkbox-theme-mark2(info-color-dark, #0099CC);
+@include checkbox-theme-mark2(turquoise-color, #2BBBAD);
+@include checkbox-theme-mark2(turquoise-color-dark, #00695c);
+@include checkbox-theme-mark2(primary-color, #4285F4);
+@include checkbox-theme-mark2(primary-color-dark, #0d47a1);
+@include checkbox-theme-mark2(secondary-color, #aa66cc);
+@include checkbox-theme-mark2(secondary-color-dark, #9933CC);
+
+//square
+@include checkbox-theme-square(default, #4a4a4a);
+@include checkbox-theme-square(danger-color, #ff4444);
+@include checkbox-theme-square(danger-color-dark, #CC0000);
+@include checkbox-theme-square(warning-color, #ffbb33);
+@include checkbox-theme-square(warning-color-dark, #FF8800);
+@include checkbox-theme-square(success-color, #00C851);
+@include checkbox-theme-square(success-color-dark, #007E33);
+@include checkbox-theme-square(info-color, #33b5e5);
+@include checkbox-theme-square(info-color-dark, #0099CC);
+@include checkbox-theme-square(turquoise-color, #2BBBAD);
+@include checkbox-theme-square(turquoise-color-dark, #00695c);
+@include checkbox-theme-square(primary-color, #4285F4);
+@include checkbox-theme-square(primary-color-dark, #0d47a1);
+@include checkbox-theme-square(secondary-color, #aa66cc);
+@include checkbox-theme-square(secondary-color-dark, #9933CC);
+
+//switcher
+@include checkbox-theme-switcher(default, #4a4a4a);
+@include checkbox-theme-switcher(danger-color, #ff4444);
+@include checkbox-theme-switcher(danger-color-dark, #CC0000);
+@include checkbox-theme-switcher(warning-color, #ffbb33);
+@include checkbox-theme-switcher(warning-color-dark, #FF8800);
+@include checkbox-theme-switcher(success-color, #00C851);
+@include checkbox-theme-switcher(success-color-dark, #007E33);
+@include checkbox-theme-switcher(info-color, #33b5e5);
+@include checkbox-theme-switcher(info-color-dark, #0099CC);
+@include checkbox-theme-switcher(turquoise-color, #2BBBAD);
+@include checkbox-theme-switcher(turquoise-color-dark, #00695c);
+@include checkbox-theme-switcher(primary-color, #4285F4);
+@include checkbox-theme-switcher(primary-color-dark, #0d47a1);
+@include checkbox-theme-switcher(secondary-color, #aa66cc);
+@include checkbox-theme-switcher(secondary-color-dark, #9933CC);
