@@ -1,12 +1,9 @@
 @charset "UTF-8";
 [data-checkbox-theme] {
   position: relative;
-  width: 20px;
-  height: 20px;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  -ms-appearance: none !important;
-  -o-appearance: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 10px !important;
   display: inline-block !important;
   margin-top: 0 !important;
   vertical-align: sub;
@@ -1084,8 +1081,9 @@
 }
 
 [data-checkbox-theme=switcher-default] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1117,8 +1115,9 @@
 }
 
 [data-checkbox-theme=switcher-danger-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1150,8 +1149,9 @@
 }
 
 [data-checkbox-theme=switcher-danger-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1183,8 +1183,9 @@
 }
 
 [data-checkbox-theme=switcher-warning-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1216,8 +1217,9 @@
 }
 
 [data-checkbox-theme=switcher-warning-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1249,8 +1251,9 @@
 }
 
 [data-checkbox-theme=switcher-success-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1282,8 +1285,9 @@
 }
 
 [data-checkbox-theme=switcher-success-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1315,8 +1319,9 @@
 }
 
 [data-checkbox-theme=switcher-info-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1348,8 +1353,9 @@
 }
 
 [data-checkbox-theme=switcher-info-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1381,8 +1387,9 @@
 }
 
 [data-checkbox-theme=switcher-turquoise-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1414,8 +1421,9 @@
 }
 
 [data-checkbox-theme=switcher-turquoise-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1447,8 +1455,9 @@
 }
 
 [data-checkbox-theme=switcher-primary-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1480,8 +1489,9 @@
 }
 
 [data-checkbox-theme=switcher-primary-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1513,8 +1523,9 @@
 }
 
 [data-checkbox-theme=switcher-secondary-color] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1546,8 +1557,9 @@
 }
 
 [data-checkbox-theme=switcher-secondary-color-dark] {
-  width: 40px;
-  height: 16px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 20px 8px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
