@@ -3,6 +3,8 @@
   position: relative;
   width: 0 !important;
   height: 0 !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
   padding: 10px !important;
   display: inline-block !important;
   margin-top: 0 !important;
@@ -1083,7 +1085,9 @@
 [data-checkbox-theme=switcher-default] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1117,7 +1121,9 @@
 [data-checkbox-theme=switcher-danger-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1151,7 +1157,9 @@
 [data-checkbox-theme=switcher-danger-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1185,7 +1193,9 @@
 [data-checkbox-theme=switcher-warning-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1219,7 +1229,9 @@
 [data-checkbox-theme=switcher-warning-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1253,7 +1265,9 @@
 [data-checkbox-theme=switcher-success-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1287,7 +1301,9 @@
 [data-checkbox-theme=switcher-success-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1321,7 +1337,9 @@
 [data-checkbox-theme=switcher-info-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1355,7 +1373,9 @@
 [data-checkbox-theme=switcher-info-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1389,7 +1409,9 @@
 [data-checkbox-theme=switcher-turquoise-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1423,7 +1445,9 @@
 [data-checkbox-theme=switcher-turquoise-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1457,7 +1481,9 @@
 [data-checkbox-theme=switcher-primary-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1491,7 +1517,9 @@
 [data-checkbox-theme=switcher-primary-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1525,7 +1553,9 @@
 [data-checkbox-theme=switcher-secondary-color] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }
@@ -1559,7 +1589,9 @@
 [data-checkbox-theme=switcher-secondary-color-dark] {
   width: 0 !important;
   height: 0 !important;
-  padding: 20px 8px !important;
+  padding: 8px 20px !important;
+  min-width: 40px !important;
+  min-height: 16px !important;
   margin: 4px !important;
   vertical-align: bottom;
 }

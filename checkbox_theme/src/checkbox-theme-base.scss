@@ -90,7 +90,9 @@
   [data-checkbox-theme="switcher-#{$name}"]{
     width: 0 !important;
     height: 0 !important;
-    padding: 20px 8px !important;
+    padding: 8px 20px !important;
+    min-width: 40px !important;
+    min-height: 16px !important;
 
     margin: 4px !important;
     vertical-align: bottom;
@@ -127,6 +129,8 @@
   position: relative;
   width: 0 !important;
   height: 0 !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
   padding: 10px !important;
   display: inline-block !important;
   margin-top: 0 !important;
