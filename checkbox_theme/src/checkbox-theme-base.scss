@@ -1,12 +1,12 @@
 @mixin checkbox-theme-mark($name, $color){
   [data-checkbox-theme="mark-#{$name}"]{
-    &:before {
-      transition: 0.3s ease all;
-    }
     &:after {
       opacity: 0;
       color: $color;
       transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      -moz-transform: translateY(-15px);
+      -o-transform: translateY(-15px);
     }
     &:disabled {
       opacity: 0.5;
@@ -14,6 +14,9 @@
     &:checked:after {
       content: '✔';
       transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -o-transform: translateY(0px);
       opacity: 1;
     }
     &:checked:before {
@@ -29,12 +32,12 @@
 
 @mixin checkbox-theme-mark2($name, $color){
   [data-checkbox-theme="mark2-#{$name}"]{
-    &:before {
-      transition: 0.3s ease all;
-    }
     &:after {
       opacity: 0;
       transform: rotate(0deg) translate(0px,0px);
+      -webkit-transform: rotate(0deg) translate(0px,0px);
+      -moz-transform: rotate(0deg) translate(0px,0px);
+      -o-transform: rotate(0deg) translate(0px,0px);
     }
     &:disabled {
       opacity: 0.5;
@@ -46,6 +49,9 @@
       border-bottom: 1px solid $color;
       border-right: 1px solid $color;
       transform: rotate(39deg) translate(1px, -6px);
+      -webkit-transform: rotate(39deg) translate(1px, -6px);
+      -moz-transform: rotate(39deg) translate(1px, -6px);
+      -o-transform: rotate(39deg) translate(1px, -6px);
     }
     &:checked:before {
       border-color: transparent;
@@ -60,9 +66,6 @@
 
 @mixin checkbox-theme-square($name, $color){
   [data-checkbox-theme="square-#{$name}"]{
-    &:before {
-      transition: 0.3s ease all;
-    }
     &:after {
       opacity: 0;
     }
@@ -129,6 +132,13 @@
   margin-top: 0 !important;
   vertical-align: sub;
 
+  //firefox
+  @-moz-document url-prefix() {
+    visibility: visible;
+    width: initial !important;
+    height: initial !important;
+  }
+
   &:before, &:after{
     visibility: visible;
     content: ' ';
@@ -137,6 +147,11 @@
     right: 0;
     bottom: 0;
     top: 0;
+
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
   }
 
   &:before{
@@ -144,14 +159,13 @@
     border: 1px solid lightgrey;
   }
 
-  &:after {
-    transition: 0.3s all ease;
-  }
-
   &:checked:after {
     display: flex;
+    display: -ms-flexbox;
     justify-content: center;
+    -ms-flex-pack: center;
     align-items: center;
+    -ms-flex-align: center;
     text-align: center;
   }
 }
