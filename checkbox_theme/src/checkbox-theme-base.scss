@@ -125,6 +125,11 @@
   position: relative;
   width: 20px;
   height: 20px;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -ms-appearance: none !important;
+  -o-appearance: none !important;
+  display: inline-block !important;
   margin-top: 0 !important;
   vertical-align: sub;
 
