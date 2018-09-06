@@ -22,10 +22,10 @@
   right: 0;
   bottom: 0;
   top: 0;
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 [data-checkbox-theme]:before {
   background-color: white;
