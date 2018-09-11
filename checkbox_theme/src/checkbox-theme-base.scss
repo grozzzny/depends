@@ -159,6 +159,12 @@
     border: 1px solid lightgrey;
   }
 
+  &.error{
+    &:before{
+      border-color: red;
+    }
+  }
+
   &:checked:after {
     display: flex;
     display: -ms-flexbox;

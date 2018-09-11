@@ -31,6 +31,9 @@
   background-color: white;
   border: 1px solid lightgrey;
 }
+[data-checkbox-theme].error:before {
+  border-color: red;
+}
 [data-checkbox-theme]:checked:after {
   display: flex;
   display: -ms-flexbox;

@@ -9,4 +9,7 @@ class CheckboxThemeAsset extends AssetBundle
     public $css = [
         'checkbox-theme.css',
     ];
+    public $js = [
+        'checkbox-theme-validation.js',
+    ];
 }
