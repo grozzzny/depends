@@ -68,3 +68,20 @@
 @include checkbox-theme-switcher(primary-color-dark, #0d47a1);
 @include checkbox-theme-switcher(secondary-color, #aa66cc);
 @include checkbox-theme-switcher(secondary-color-dark, #9933CC);
+
+//switcher2
+@include checkbox-theme-switcher2(default, #4a4a4a);
+@include checkbox-theme-switcher2(danger-color, #ff4444);
+@include checkbox-theme-switcher2(danger-color-dark, #CC0000);
+@include checkbox-theme-switcher2(warning-color, #ffbb33);
+@include checkbox-theme-switcher2(warning-color-dark, #FF8800);
+@include checkbox-theme-switcher2(success-color, #00C851);
+@include checkbox-theme-switcher2(success-color-dark, #007E33);
+@include checkbox-theme-switcher2(info-color, #33b5e5);
+@include checkbox-theme-switcher2(info-color-dark, #0099CC);
+@include checkbox-theme-switcher2(turquoise-color, #2BBBAD);
+@include checkbox-theme-switcher2(turquoise-color-dark, #00695c);
+@include checkbox-theme-switcher2(primary-color, #4285F4);
+@include checkbox-theme-switcher2(primary-color-dark, #0d47a1);
+@include checkbox-theme-switcher2(secondary-color, #aa66cc);
+@include checkbox-theme-switcher2(secondary-color-dark, #9933CC);
