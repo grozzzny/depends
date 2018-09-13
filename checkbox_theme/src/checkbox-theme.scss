@@ -85,3 +85,37 @@
 @include checkbox-theme-switcher2(primary-color-dark, #0d47a1);
 @include checkbox-theme-switcher2(secondary-color, #aa66cc);
 @include checkbox-theme-switcher2(secondary-color-dark, #9933CC);
+
+//switcher3
+@include checkbox-theme-switcher3(default, #4a4a4a);
+@include checkbox-theme-switcher3(danger-color, #ff4444);
+@include checkbox-theme-switcher3(danger-color-dark, #CC0000);
+@include checkbox-theme-switcher3(warning-color, #ffbb33);
+@include checkbox-theme-switcher3(warning-color-dark, #FF8800);
+@include checkbox-theme-switcher3(success-color, #00C851);
+@include checkbox-theme-switcher3(success-color-dark, #007E33);
+@include checkbox-theme-switcher3(info-color, #33b5e5);
+@include checkbox-theme-switcher3(info-color-dark, #0099CC);
+@include checkbox-theme-switcher3(turquoise-color, #2BBBAD);
+@include checkbox-theme-switcher3(turquoise-color-dark, #00695c);
+@include checkbox-theme-switcher3(primary-color, #4285F4);
+@include checkbox-theme-switcher3(primary-color-dark, #0d47a1);
+@include checkbox-theme-switcher3(secondary-color, #aa66cc);
+@include checkbox-theme-switcher3(secondary-color-dark, #9933CC);
+
+//switcher4
+@include checkbox-theme-switcher4(default, #4a4a4a);
+@include checkbox-theme-switcher4(danger-color, #ff4444);
+@include checkbox-theme-switcher4(danger-color-dark, #CC0000);
+@include checkbox-theme-switcher4(warning-color, #ffbb33);
+@include checkbox-theme-switcher4(warning-color-dark, #FF8800);
+@include checkbox-theme-switcher4(success-color, #00C851);
+@include checkbox-theme-switcher4(success-color-dark, #007E33);
+@include checkbox-theme-switcher4(info-color, #33b5e5);
+@include checkbox-theme-switcher4(info-color-dark, #0099CC);
+@include checkbox-theme-switcher4(turquoise-color, #2BBBAD);
+@include checkbox-theme-switcher4(turquoise-color-dark, #00695c);
+@include checkbox-theme-switcher4(primary-color, #4285F4);
+@include checkbox-theme-switcher4(primary-color-dark, #0d47a1);
+@include checkbox-theme-switcher4(secondary-color, #aa66cc);
+@include checkbox-theme-switcher4(secondary-color-dark, #9933CC);

@@ -2129,4 +2129,1144 @@
   box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.1);
 }
 
+[data-checkbox-theme=switcher3-default] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-default]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-default]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-default]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-default]:checked:after {
+  left: 20px;
+  border-color: #4a4a4a;
+}
+[data-checkbox-theme=switcher3-default]:checked:before {
+  background-color: #4a4a4a;
+}
+
+[data-checkbox-theme=switcher3-danger-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-danger-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-danger-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-danger-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-danger-color]:checked:after {
+  left: 20px;
+  border-color: #ff4444;
+}
+[data-checkbox-theme=switcher3-danger-color]:checked:before {
+  background-color: #ff4444;
+}
+
+[data-checkbox-theme=switcher3-danger-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-danger-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-danger-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-danger-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-danger-color-dark]:checked:after {
+  left: 20px;
+  border-color: #CC0000;
+}
+[data-checkbox-theme=switcher3-danger-color-dark]:checked:before {
+  background-color: #CC0000;
+}
+
+[data-checkbox-theme=switcher3-warning-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-warning-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-warning-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-warning-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-warning-color]:checked:after {
+  left: 20px;
+  border-color: #ffbb33;
+}
+[data-checkbox-theme=switcher3-warning-color]:checked:before {
+  background-color: #ffbb33;
+}
+
+[data-checkbox-theme=switcher3-warning-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-warning-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-warning-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-warning-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-warning-color-dark]:checked:after {
+  left: 20px;
+  border-color: #FF8800;
+}
+[data-checkbox-theme=switcher3-warning-color-dark]:checked:before {
+  background-color: #FF8800;
+}
+
+[data-checkbox-theme=switcher3-success-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-success-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-success-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-success-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-success-color]:checked:after {
+  left: 20px;
+  border-color: #00C851;
+}
+[data-checkbox-theme=switcher3-success-color]:checked:before {
+  background-color: #00C851;
+}
+
+[data-checkbox-theme=switcher3-success-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-success-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-success-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-success-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-success-color-dark]:checked:after {
+  left: 20px;
+  border-color: #007E33;
+}
+[data-checkbox-theme=switcher3-success-color-dark]:checked:before {
+  background-color: #007E33;
+}
+
+[data-checkbox-theme=switcher3-info-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-info-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-info-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-info-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-info-color]:checked:after {
+  left: 20px;
+  border-color: #33b5e5;
+}
+[data-checkbox-theme=switcher3-info-color]:checked:before {
+  background-color: #33b5e5;
+}
+
+[data-checkbox-theme=switcher3-info-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-info-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-info-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-info-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-info-color-dark]:checked:after {
+  left: 20px;
+  border-color: #0099CC;
+}
+[data-checkbox-theme=switcher3-info-color-dark]:checked:before {
+  background-color: #0099CC;
+}
+
+[data-checkbox-theme=switcher3-turquoise-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-turquoise-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-turquoise-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-turquoise-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-turquoise-color]:checked:after {
+  left: 20px;
+  border-color: #2BBBAD;
+}
+[data-checkbox-theme=switcher3-turquoise-color]:checked:before {
+  background-color: #2BBBAD;
+}
+
+[data-checkbox-theme=switcher3-turquoise-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-turquoise-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-turquoise-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-turquoise-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-turquoise-color-dark]:checked:after {
+  left: 20px;
+  border-color: #00695c;
+}
+[data-checkbox-theme=switcher3-turquoise-color-dark]:checked:before {
+  background-color: #00695c;
+}
+
+[data-checkbox-theme=switcher3-primary-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-primary-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-primary-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-primary-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-primary-color]:checked:after {
+  left: 20px;
+  border-color: #4285F4;
+}
+[data-checkbox-theme=switcher3-primary-color]:checked:before {
+  background-color: #4285F4;
+}
+
+[data-checkbox-theme=switcher3-primary-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-primary-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-primary-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-primary-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-primary-color-dark]:checked:after {
+  left: 20px;
+  border-color: #0d47a1;
+}
+[data-checkbox-theme=switcher3-primary-color-dark]:checked:before {
+  background-color: #0d47a1;
+}
+
+[data-checkbox-theme=switcher3-secondary-color] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-secondary-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-secondary-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-secondary-color]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-secondary-color]:checked:after {
+  left: 20px;
+  border-color: #aa66cc;
+}
+[data-checkbox-theme=switcher3-secondary-color]:checked:before {
+  background-color: #aa66cc;
+}
+
+[data-checkbox-theme=switcher3-secondary-color-dark] {
+  width: 40px;
+  height: 16px;
+  margin: 4px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher3-secondary-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher3-secondary-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+}
+[data-checkbox-theme=switcher3-secondary-color-dark]:after {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  top: -4px;
+  left: -4px;
+  content: " ";
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+[data-checkbox-theme=switcher3-secondary-color-dark]:checked:after {
+  left: 20px;
+  border-color: #9933CC;
+}
+[data-checkbox-theme=switcher3-secondary-color-dark]:checked:before {
+  background-color: #9933CC;
+}
+
+[data-checkbox-theme=switcher4-default] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-default]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-default]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-default]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-default]:checked:after {
+  left: 27px;
+  border-color: #4a4a4a;
+}
+[data-checkbox-theme=switcher4-default]:checked:before {
+  background-color: #4a4a4a;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-danger-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-danger-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-danger-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-danger-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-danger-color]:checked:after {
+  left: 27px;
+  border-color: #ff4444;
+}
+[data-checkbox-theme=switcher4-danger-color]:checked:before {
+  background-color: #ff4444;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-danger-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-danger-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-danger-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-danger-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-danger-color-dark]:checked:after {
+  left: 27px;
+  border-color: #CC0000;
+}
+[data-checkbox-theme=switcher4-danger-color-dark]:checked:before {
+  background-color: #CC0000;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-warning-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-warning-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-warning-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-warning-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-warning-color]:checked:after {
+  left: 27px;
+  border-color: #ffbb33;
+}
+[data-checkbox-theme=switcher4-warning-color]:checked:before {
+  background-color: #ffbb33;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-warning-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-warning-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-warning-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-warning-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-warning-color-dark]:checked:after {
+  left: 27px;
+  border-color: #FF8800;
+}
+[data-checkbox-theme=switcher4-warning-color-dark]:checked:before {
+  background-color: #FF8800;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-success-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-success-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-success-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-success-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-success-color]:checked:after {
+  left: 27px;
+  border-color: #00C851;
+}
+[data-checkbox-theme=switcher4-success-color]:checked:before {
+  background-color: #00C851;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-success-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-success-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-success-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-success-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-success-color-dark]:checked:after {
+  left: 27px;
+  border-color: #007E33;
+}
+[data-checkbox-theme=switcher4-success-color-dark]:checked:before {
+  background-color: #007E33;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-info-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-info-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-info-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-info-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-info-color]:checked:after {
+  left: 27px;
+  border-color: #33b5e5;
+}
+[data-checkbox-theme=switcher4-info-color]:checked:before {
+  background-color: #33b5e5;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-info-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-info-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-info-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-info-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-info-color-dark]:checked:after {
+  left: 27px;
+  border-color: #0099CC;
+}
+[data-checkbox-theme=switcher4-info-color-dark]:checked:before {
+  background-color: #0099CC;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-turquoise-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-turquoise-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-turquoise-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-turquoise-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-turquoise-color]:checked:after {
+  left: 27px;
+  border-color: #2BBBAD;
+}
+[data-checkbox-theme=switcher4-turquoise-color]:checked:before {
+  background-color: #2BBBAD;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-turquoise-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-turquoise-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-turquoise-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-turquoise-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-turquoise-color-dark]:checked:after {
+  left: 27px;
+  border-color: #00695c;
+}
+[data-checkbox-theme=switcher4-turquoise-color-dark]:checked:before {
+  background-color: #00695c;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-primary-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-primary-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-primary-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-primary-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-primary-color]:checked:after {
+  left: 27px;
+  border-color: #4285F4;
+}
+[data-checkbox-theme=switcher4-primary-color]:checked:before {
+  background-color: #4285F4;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-primary-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-primary-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-primary-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-primary-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-primary-color-dark]:checked:after {
+  left: 27px;
+  border-color: #0d47a1;
+}
+[data-checkbox-theme=switcher4-primary-color-dark]:checked:before {
+  background-color: #0d47a1;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-secondary-color] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-secondary-color]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-secondary-color]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-secondary-color]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-secondary-color]:checked:after {
+  left: 27px;
+  border-color: #aa66cc;
+}
+[data-checkbox-theme=switcher4-secondary-color]:checked:before {
+  background-color: #aa66cc;
+  content: "On";
+  padding-left: 4px;
+}
+
+[data-checkbox-theme=switcher4-secondary-color-dark] {
+  width: 50px;
+  height: 22px;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+[data-checkbox-theme=switcher4-secondary-color-dark]:disabled {
+  opacity: 0.5;
+}
+[data-checkbox-theme=switcher4-secondary-color-dark]:before {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  content: "Off";
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+  padding: 2px 5px;
+  padding-left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+[data-checkbox-theme=switcher4-secondary-color-dark]:after {
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  top: -1px;
+  left: -1px;
+  content: "";
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+[data-checkbox-theme=switcher4-secondary-color-dark]:checked:after {
+  left: 27px;
+  border-color: #9933CC;
+}
+[data-checkbox-theme=switcher4-secondary-color-dark]:checked:before {
+  background-color: #9933CC;
+  content: "On";
+  padding-left: 4px;
+}
+
 /*# sourceMappingURL=checkbox-theme.css.map */
