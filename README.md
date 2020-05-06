@@ -43,6 +43,7 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\flexslider\FlexsliderAsset',
         'grozzzny\depends\font_awesome\FontAwesomeAsset',
         'grozzzny\depends\jquery_migrate\JqueryMigrateAsset',
+        'grozzzny\depends\jquery_ui\JqueryUiAsset',
         'grozzzny\depends\masonry\MasonryAsset',
         'grozzzny\depends\modernizr\ModernizrAsset',
         'grozzzny\depends\nested\NestedAsset',
@@ -530,6 +531,13 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fanc
     openEasing : 'swing',
     closeEasing : 'swing'
  });
+```
+---
+
+### Jquery Ui
+jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.  [jqueryui](https://api.jqueryui.com/)
+```
+grozzzny\depends\jquery_ui\JqueryUiAsset
 ```
 ---
 
