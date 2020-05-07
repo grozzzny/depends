@@ -590,6 +590,13 @@ new DragonDrop(demo2, {
 ```
 ---
 
+### PlainDraggable
+The simple and high performance library to allow HTML/SVG element to be dragged.  [PlainDraggable](https://anseki.github.io/plain-draggable/)
+```
+grozzzny\depends\plain_draggable\PlainDraggableAsset
+```
+---
+
 ### Sticky
 Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.  [Sticky](https://github.com/garand/sticky)
 ```
