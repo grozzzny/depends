@@ -590,6 +590,23 @@ new DragonDrop(demo2, {
 ```
 ---
 
+### Draggable
+Get complete control over drag and drop behaviour with Draggable! Draggable abstracts native browser events into a comprehensive API to create a custom drag and drop experience. [Draggable](https://github.com/Shopify/draggable)
+```
+grozzzny\depends\draggable\DraggableAsset
+```
+```js
+var containers = document.querySelectorAll('#UniqueDropzone .BlockLayout');
+var droppable = new Droppable(containers, {
+    draggable: '.Block--isDraggable',
+    dropzone: '.BlockWrapper--isDropzone',
+    mirror: {
+      constrainDimensions: true
+    }
+});
+```
+---
+
 ### PlainDraggable
 The simple and high performance library to allow HTML/SVG element to be dragged.  [PlainDraggable](https://anseki.github.io/plain-draggable/)
 ```
