@@ -65,6 +65,11 @@ class AppAsset extends \yii\web\AssetBundle
         'grozzzny\depends\eonasdan\EonasdanBootstrapDatetimepickerAsset',
         'grozzzny\depends\threejs\ThreejsAsset',
         'grozzzny\depends\wagerfield_parallax\WagerfieldParallaxAsset',
+        'grozzzny\depends\countdown\CountdownAsset',
+        'grozzzny\depends\bootstrap_datepicker\BootstrapDatepickerAsset',
+        'grozzzny\depends\easing\EasingAsset',
+        'grozzzny\depends\aos\AosAsset',
+        'grozzzny\depends\icomoon\IcomoonAsset',
     ];
     ...
 }
@@ -75,6 +80,41 @@ class AppAsset extends \yii\web\AssetBundle
 Checkbox with one tag without js. [Checkbox theme](https://pr-kenig.ru/blog/view/checkbox-theme) 
 ```
 grozzzny\depends\checkbox_theme\CheckboxThemeAsset
+```
+---
+
+### Aos
+Animate On Scroll Library [aos](https://michalsnik.github.io/aos/) 
+```
+grozzzny\depends\aos\AosAsset
+```
+---
+
+### Icomoon
+Icons [Icomoon](https://icomoon.io/#preview-free) 
+```
+grozzzny\depends\icomoon\IcomoonAsset
+```
+---
+
+### Easing
+[jQuery Easing v1.3](http://gsgd.co.uk/sandbox/jquery/easing/) 
+```
+grozzzny\depends\easing\EasingAsset
+```
+---
+
+### Countdown
+Countdown. [jQuery.countdown](http://hilios.github.io/jQuery.countdown/) 
+```
+grozzzny\depends\countdown\CountdownAsset
+```
+---
+
+### Bootstrap Datepicker
+Datepicker. [bootstrap-datepicker](https://github.com/eternicode/bootstrap-datepicker) 
+```
+grozzzny\depends\bootstrap_datepicker\BootstrapDatepickerAsset
 ```
 ---
 
@@ -597,7 +637,7 @@ grozzzny\depends\plain_draggable\PlainDraggableAsset
 ```
 ---
 
-### Sticky
+### jQuery Sticky
 Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.  [Sticky](https://github.com/garand/sticky)
 ```
 grozzzny\depends\sticky\StickyAsset
