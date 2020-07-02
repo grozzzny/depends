@@ -23,6 +23,7 @@ class AppAsset extends \yii\web\AssetBundle
 {
     ..
     public $depends = [
+    	'grozzzny\depends\glyphicon\GlyphiconAsset',
         'grozzzny\depends\bootstrap4\Bootstrap4Asset',
         'grozzzny\depends\bootstrap4\Bootstrap4PluginAsset',
         'grozzzny\depends\mdbootstrap\MDBootstrapAsset',
@@ -96,6 +97,14 @@ Icons [Icomoon](https://icomoon.io/#preview-free)
 grozzzny\depends\icomoon\IcomoonAsset
 ```
 ---
+
+### Glyphicon icons
+Icons [Glyphicon icons](https://getbootstrap.com/docs/3.3/components/) 
+```
+grozzzny\depends\glyphicon\GlyphiconAsset
+```
+---
+
 
 ### Easing
 [jQuery Easing v1.3](http://gsgd.co.uk/sandbox/jquery/easing/) 
